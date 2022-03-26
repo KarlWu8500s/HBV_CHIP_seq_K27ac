@@ -1,5 +1,5 @@
 {
-    "chip.title" : "705N_K27Ac (pair-ended)",
+    "chip.title" : "705N_K27Ac (single-ended)",
     "chip.description" : "This is the input JSON for pair-end 705N_K27Ac",
 
     "chip.pipeline_type" : "histone",
