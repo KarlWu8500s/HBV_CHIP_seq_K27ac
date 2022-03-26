@@ -1,0 +1,22 @@
+{
+    "chip.title" : "705N_K27Ac (pair-ended)",
+    "chip.description" : "This is the input JSON for pair-end 705N_K27Ac",
+
+    "chip.pipeline_type" : "histone",
+    "chip.aligner" : "bowtie2",
+    "chip.align_only" : false,
+    "chip.true_rep_only" : false,
+
+    "chip.genome_tsv" : "/datastore/alfred/refer/hg38forchipseqpipline/hg38.tsv",
+
+    "chip.paired_end" : false,
+    "chip.ctl_paired_end" : false,
+
+    "chip.fastqs_rep1_R1" : [ "/datastore/alfred/raw/otto/mynas2/F16FTSHMHT0324/F16FTSHMHT0324_LIBlolC/Clean/705N_K27ac/FCH7FYTBBXX_L1_CHKPEI85216040004_705N_K27ac_1.fq.gz", "/datastore/alfred/raw/otto/mynas2/F16FTSHMHT0324/F16FTSHMHT0324_LIBlolC/Clean/705N_K27ac/FCH7FYTBBXX_L2_CHKPEI85216040004_705N_K27ac_1.fq.gz" ],
+	
+    "chip.ctl_fastqs_rep1_R1" : [ "/datastore/alfred/raw/otto/mynas2/F16FTSHMHT0324/F16FTSHMHT0324_LIBlolC/Clean/705N_input/FCH7FYTBBXX_L1_CHKPEI85216040004_705N_input_1.fq.gz", "/datastore/alfred/raw/otto/mynas2/F16FTSHMHT0324/F16FTSHMHT0324_LIBlolC/Clean/705N_input/FCH7FYTBBXX_L2_CHKPEI85216040004_705N_input_1.fq.gz" ],
+
+    "chip.pval_thresh" : 0.01
+
+}
+

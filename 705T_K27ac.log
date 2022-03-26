@@ -1,0 +1,80 @@
+2022-03-23 16:01:00,887|caper.cli|INFO| Cromwell stdout: /datastore/alfred/haoran/github/chip-seq-pipeline2/cromwell.out.7
+2022-03-23 16:01:00,899|caper.caper_base|INFO| Creating a timestamped temporary directory. /datastore/alfred/haoran/biosoft/caper_results/chip/20220323_160100_888205
+2022-03-23 16:01:00,900|caper.caper_runner|INFO| Localizing files on work_dir. /datastore/alfred/haoran/biosoft/caper_results/chip/20220323_160100_888205
+2022-03-23 16:01:01,690|caper.cromwell|INFO| Validating WDL/inputs/imports with Womtool...
+2022-03-23 16:01:04,066|caper.cromwell|INFO| Passed Womtool validation.
+2022-03-23 16:01:04,067|caper.caper_runner|INFO| launching run: wdl=/datastore/alfred/haoran/github/chip-seq-pipeline2/chip.wdl, inputs=/datastore/alfred/haoran/github/chip-seq-pipeline2/myjson/705T_K27ac.json, backend_conf=/datastore/alfred/haoran/biosoft/caper_results/chip/20220323_160100_888205/backend.conf
+2022-03-23 16:01:11,460|caper.cromwell_workflow_monitor|INFO| Workflow: id=ba85fd54-a017-4163-8a25-52044d2b37bb, status=Submitted
+2022-03-23 16:01:11,519|caper.cromwell_workflow_monitor|INFO| Workflow: id=ba85fd54-a017-4163-8a25-52044d2b37bb, status=Running
+2022-03-23 16:01:31,284|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.read_genome_tsv:-1, retry=0, status=Started, job_id=1965724
+2022-03-23 16:01:31,287|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.read_genome_tsv:-1, retry=0, status=WaitingForReturnCode
+2022-03-23 16:01:35,535|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.read_genome_tsv:-1, retry=0, status=Done
+2022-03-23 16:01:46,278|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.align_ctl:0, retry=0, status=Started, job_id=1967622
+2022-03-23 16:01:46,278|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.align_R1:0, retry=0, status=Started, job_id=1968983
+2022-03-23 16:01:46,278|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.align_R1:0, retry=0, status=WaitingForReturnCode
+2022-03-23 16:01:46,279|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.align_ctl:0, retry=0, status=WaitingForReturnCode
+2022-03-23 16:01:51,277|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.align:0, retry=0, status=Started, job_id=1970841
+2022-03-23 16:01:51,277|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.align:0, retry=0, status=WaitingForReturnCode
+2022-03-23 16:02:25,984|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.align_ctl:0, retry=0, status=Done
+2022-03-23 16:02:36,277|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.filter_ctl:0, retry=0, status=Started, job_id=1973341
+2022-03-23 16:02:36,277|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.filter_ctl:0, retry=0, status=WaitingForReturnCode
+2022-03-23 16:02:44,054|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.filter_ctl:0, retry=0, status=Done
+2022-03-23 16:02:56,277|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.bam2ta_ctl:0, retry=0, status=Started, job_id=1975343
+2022-03-23 16:02:56,277|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.bam2ta_ctl:0, retry=0, status=WaitingForReturnCode
+2022-03-23 16:02:59,734|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.bam2ta_ctl:0, retry=0, status=Done
+2022-03-23 16:55:48,486|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.align_R1:0, retry=0, status=Done
+2022-03-23 16:55:56,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.filter_R1:0, retry=0, status=Started, job_id=2016089
+2022-03-23 16:55:56,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.filter_R1:0, retry=0, status=WaitingForReturnCode
+2022-03-23 16:58:50,555|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.filter_R1:0, retry=0, status=Done
+2022-03-23 16:58:56,275|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.bam2ta_no_dedup_R1:0, retry=0, status=Started, job_id=2024136
+2022-03-23 16:58:56,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.bam2ta_no_dedup_R1:0, retry=0, status=WaitingForReturnCode
+2022-03-23 16:59:15,004|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.bam2ta_no_dedup_R1:0, retry=0, status=Done
+2022-03-23 17:01:22,735|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.align:0, retry=0, status=Done
+2022-03-23 17:01:36,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.filter:0, retry=0, status=Started, job_id=2029694
+2022-03-23 17:01:36,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.filter:0, retry=0, status=WaitingForReturnCode
+2022-03-23 17:08:21,675|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.filter:0, retry=0, status=Done
+2022-03-23 17:08:31,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.gc_bias:0, retry=0, status=Started, job_id=2039630
+2022-03-23 17:08:31,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.gc_bias:0, retry=0, status=WaitingForReturnCode
+2022-03-23 17:08:36,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.jsd:-1, retry=0, status=Started, job_id=2042960
+2022-03-23 17:08:36,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.bam2ta:0, retry=0, status=Started, job_id=2041010
+2022-03-23 17:08:36,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.jsd:-1, retry=0, status=WaitingForReturnCode
+2022-03-23 17:08:36,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.bam2ta:0, retry=0, status=WaitingForReturnCode
+2022-03-23 17:09:04,484|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.bam2ta:0, retry=0, status=Done
+2022-03-23 17:09:16,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.xcor:0, retry=0, status=Started, job_id=2048627
+2022-03-23 17:09:16,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.choose_ctl:-1, retry=0, status=Started, job_id=2046762
+2022-03-23 17:09:16,277|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.spr:0, retry=0, status=Started, job_id=2045396
+2022-03-23 17:09:16,277|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.choose_ctl:-1, retry=0, status=WaitingForReturnCode
+2022-03-23 17:09:16,277|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.xcor:0, retry=0, status=WaitingForReturnCode
+2022-03-23 17:09:16,277|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.spr:0, retry=0, status=WaitingForReturnCode
+2022-03-23 17:09:23,184|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.choose_ctl:-1, retry=0, status=Done
+2022-03-23 17:09:38,175|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.spr:0, retry=0, status=Done
+2022-03-23 17:12:17,384|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.gc_bias:0, retry=0, status=Done
+2022-03-23 17:12:23,435|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.jsd:-1, retry=0, status=Done
+2022-03-23 17:12:26,095|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.xcor:0, retry=0, status=Done
+2022-03-23 17:12:36,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.call_peak_pr2:0, retry=0, status=Started, job_id=2055702
+2022-03-23 17:12:36,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.call_peak:0, retry=0, status=Started, job_id=2057082
+2022-03-23 17:12:36,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.call_peak:0, retry=0, status=WaitingForReturnCode
+2022-03-23 17:12:36,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.call_peak_pr2:0, retry=0, status=WaitingForReturnCode
+2022-03-23 17:12:41,275|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.fraglen_mean:-1, retry=0, status=Started, job_id=2061009
+2022-03-23 17:12:41,275|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.macs2_signal_track:0, retry=0, status=Started, job_id=2059037
+2022-03-23 17:12:41,275|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.macs2_signal_track:0, retry=0, status=WaitingForReturnCode
+2022-03-23 17:12:41,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.fraglen_mean:-1, retry=0, status=WaitingForReturnCode
+2022-03-23 17:12:46,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.call_peak_pr1:0, retry=0, status=Started, job_id=2062984
+2022-03-23 17:12:46,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.call_peak_pr1:0, retry=0, status=WaitingForReturnCode
+2022-03-23 17:12:49,254|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.fraglen_mean:-1, retry=0, status=Done
+2022-03-23 17:13:12,215|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.call_peak_pr2:0, retry=0, status=Done
+2022-03-23 17:13:22,534|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.call_peak_pr1:0, retry=0, status=Done
+2022-03-23 17:13:44,445|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.call_peak:0, retry=0, status=Done
+2022-03-23 17:13:56,275|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.overlap_pr:0, retry=0, status=Started, job_id=2066946
+2022-03-23 17:13:56,275|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.overlap_pr:0, retry=0, status=WaitingForReturnCode
+2022-03-23 17:14:19,554|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.overlap_pr:0, retry=0, status=Done
+2022-03-23 17:14:26,275|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.reproducibility_overlap:-1, retry=0, status=Started, job_id=2068989
+2022-03-23 17:14:26,275|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.reproducibility_overlap:-1, retry=0, status=WaitingForReturnCode
+2022-03-23 17:14:33,854|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.reproducibility_overlap:-1, retry=0, status=Done
+2022-03-23 17:14:41,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.qc_report:-1, retry=0, status=Started, job_id=2071121
+2022-03-23 17:14:41,276|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.qc_report:-1, retry=0, status=WaitingForReturnCode
+2022-03-23 17:14:48,325|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.qc_report:-1, retry=0, status=Done
+2022-03-23 17:18:25,955|caper.cromwell_workflow_monitor|INFO| Task: id=ba85fd54-a017-4163-8a25-52044d2b37bb, task=chip.macs2_signal_track:0, retry=0, status=Done
+2022-03-23 17:18:31,282|caper.cromwell_workflow_monitor|INFO| Workflow: id=ba85fd54-a017-4163-8a25-52044d2b37bb, status=Succeeded
+2022-03-23 17:19:07,322|caper.cromwell_metadata|INFO| Wrote metadata file. /datastore/alfred/haoran/github/chip-seq-pipeline2/chip/ba85fd54-a017-4163-8a25-52044d2b37bb/metadata.json
+2022-03-23 17:19:07,322|caper.nb_subproc_thread|INFO| Cromwell finished successfully.
